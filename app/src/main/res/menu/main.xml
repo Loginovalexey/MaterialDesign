@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Content View">
+        <menu>
+            <group
+                android:id="@+id/contentViewGroup"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/recyclerItem"
+                    android:checked="true"
+                    android:title="RecyclerView" />
+                <item
+                    android:id="@+id/tabsItem"
+                    android:title="Tabs" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Navigation">
+        <menu>
+            <group
+                android:id="@+id/navigationGroup"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/drawerItem"
+                    android:checked="true"
+                    android:title="Drawer" />
+                <item
+                    android:id="@+id/bottomItem"
+                    android:title="Bottom" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Theme">
+        <menu>
+            <group
+                android:id="@+id/themeGroup"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item_violet"
+                    android:checked="true"
+                    android:title="Violet" />
+                <item
+                    android:id="@+id/item_blue"
+                    android:checked="false"
+                    android:title="Blue" />
+                <item
+                    android:id="@+id/item_green"
+                    android:checked="false"
+                    android:title="Green" />
+
+            </group>
+        </menu>
+    </item>
+</menu>
